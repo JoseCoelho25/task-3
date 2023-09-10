@@ -7,6 +7,7 @@ import { ButtonComponent } from './components/button/button.component';
 import { RedButtonComponent } from './components/red-button/red-button.component';
 import { DisplayComponent } from './components/display/display.component';
 import { GreenButtonComponent } from './components/green-button/green-button.component';
+import { ColorClassPipePipe } from './pipes/color-class-pipe.pipe';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { GreenButtonComponent } from './components/green-button/green-button.com
     RedButtonComponent,
     DisplayComponent,
     GreenButtonComponent,
+    ColorClassPipePipe,
   ],
   imports: [
     BrowserModule,
